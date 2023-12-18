@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DrD_DenikPostavy.styles.css" asp-append-version="true" />
+    @await RenderSectionAsync("CSS", required: false)
+</head>
+<body>
+
+    <div class="container">
+        <img class="img-fluid" src="~/images/opening.png" alt="Dračí Doupě - Deník postavy" />
+    </div>
+
+    <section>
+        @RenderBody()
+    </section>
+
+    <footer class="border-top footer text-muted">
+        <div>
+            &copy; 2023, Martina Řezníčková
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+
