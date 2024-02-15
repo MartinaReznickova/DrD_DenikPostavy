@@ -89,3 +89,20 @@ body {
     border-color: #4e2826;
 }
 
+.text-danger{
+    font-size: 14px;
+}
+
+.headline {
+    color: #7f631f;
+    text-transform: uppercase;
+}
+
+a {
+    color: #7f631f;
+    text-decoration: underline;
+    
+}
+
+
+

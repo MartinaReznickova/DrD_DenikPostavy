@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrD_DenikPostavy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5d4bd834f63a5e5fd5ccd0f9d97f10dae799074")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40ccd7056cba76ab3016611d26d461b00fab8461")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrD_DenikPostavy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrD_DenikPostavy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

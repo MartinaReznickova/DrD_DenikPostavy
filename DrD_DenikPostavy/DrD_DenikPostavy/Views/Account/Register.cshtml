@@ -1,10 +1,11 @@
 ﻿@model RegisterViewModel
 
 
-<div class="row">
-    <div class="col-4">
+<div>
+    <h1 class="headline">Registrace</h1>
+    <div class="form-signin w-100 m-auto">
         <form class="d-flex flex-column gap-2" asp-route-returnUrl="@ViewData["ReturnUrl"]">
-            <div asp-validation-summary="All" class="text-danger"></div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Email" class="form-label"></label>
                 <input asp-for="Email" class="form-control" />
@@ -21,7 +22,7 @@
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <button type="submit" class="clanky-tlacitko">Registrovat</button>
+                <button type="submit" class="btn">Registrovat</button>
             </div>
         </form>
     </div>
